@@ -2,23 +2,63 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/[name].tsx";
-import * as $1 from "./routes/api/joke.ts";
-import * as $2 from "./routes/index.tsx";
-import * as $$0 from "./islands/Body.tsx";
-import * as $$1 from "./islands/Levels.tsx";
-import * as $$2 from "./islands/Services.tsx";
+import * as $0 from "./routes/index.tsx";
+import * as $1 from "./routes/lessons.tsx";
+import * as $$0 from "./islands/AuxiliaryVerbs.tsx";
+import * as $$1 from "./islands/Body.tsx";
+import * as $$2 from "./islands/Levels.tsx";
+import * as $$3 from "./islands/Passive.tsx";
+import * as $$4 from "./islands/PastContinuous.tsx";
+import * as $$5 from "./islands/PastPerfect.tsx";
+import * as $$6 from "./islands/PastPerfectContinuous.tsx";
+import * as $$7 from "./islands/PastSimple.tsx";
+import * as $$8 from "./islands/PresentContinuous.tsx";
+import * as $$9 from "./islands/PresentContinuousPresentSimple.tsx";
+import * as $$10 from "./islands/PresentPerfect.tsx";
+import * as $$11 from "./islands/PresentPerfectContinuous.tsx";
+import * as $$12 from "./islands/PresentPerfectContinuousSimple.tsx";
+import * as $$13 from "./islands/PresentPerfectPast.tsx";
+import * as $$14 from "./islands/PresentSimple.tsx";
+import * as $$15 from "./islands/PresentTenses.tsx";
+import * as $$16 from "./islands/QuestionTags.tsx";
+import * as $$17 from "./islands/Questions.tsx";
+import * as $$18 from "./islands/ReportedSpeech.tsx";
+import * as $$19 from "./islands/Services.tsx";
+import * as $$20 from "./islands/Stages.tsx";
+import * as $$21 from "./islands/ToeflSection.tsx";
+import * as $$22 from "./islands/Topics.tsx";
+import * as $$23 from "./islands/others.tsx";
 
 const manifest = {
   routes: {
-    "./routes/[name].tsx": $0,
-    "./routes/api/joke.ts": $1,
-    "./routes/index.tsx": $2,
+    "./routes/index.tsx": $0,
+    "./routes/lessons.tsx": $1,
   },
   islands: {
-    "./islands/Body.tsx": $$0,
-    "./islands/Levels.tsx": $$1,
-    "./islands/Services.tsx": $$2,
+    "./islands/AuxiliaryVerbs.tsx": $$0,
+    "./islands/Body.tsx": $$1,
+    "./islands/Levels.tsx": $$2,
+    "./islands/Passive.tsx": $$3,
+    "./islands/PastContinuous.tsx": $$4,
+    "./islands/PastPerfect.tsx": $$5,
+    "./islands/PastPerfectContinuous.tsx": $$6,
+    "./islands/PastSimple.tsx": $$7,
+    "./islands/PresentContinuous.tsx": $$8,
+    "./islands/PresentContinuousPresentSimple.tsx": $$9,
+    "./islands/PresentPerfect.tsx": $$10,
+    "./islands/PresentPerfectContinuous.tsx": $$11,
+    "./islands/PresentPerfectContinuousSimple.tsx": $$12,
+    "./islands/PresentPerfectPast.tsx": $$13,
+    "./islands/PresentSimple.tsx": $$14,
+    "./islands/PresentTenses.tsx": $$15,
+    "./islands/QuestionTags.tsx": $$16,
+    "./islands/Questions.tsx": $$17,
+    "./islands/ReportedSpeech.tsx": $$18,
+    "./islands/Services.tsx": $$19,
+    "./islands/Stages.tsx": $$20,
+    "./islands/ToeflSection.tsx": $$21,
+    "./islands/Topics.tsx": $$22,
+    "./islands/others.tsx": $$23,
   },
   baseUrl: import.meta.url,
 };
